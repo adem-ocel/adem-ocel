@@ -9,7 +9,7 @@
 <img width=100% src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
 <h3 align=left >🌐 contact me:</h3>
-<a href="https://www.linkedin.com/in/adem-%C3%B6cel-3837322b7/" width=40></a>
+<a href="https://www.linkedin.com/in/adem-%C3%B6cel-3837322b7/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" width=40></a>
 &nbsp;&nbsp;<a href="mailto:ademocel83@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" width=50 height=40></a>
 <!--readme.md design belongs to göktuğ gezere, I just edited it myself, you can reach his prifile from below-->
 <!--https://github.com/GezerGoktug-->
