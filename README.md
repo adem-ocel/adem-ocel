@@ -1,15 +1,61 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+  
+  <h1><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3NnZ3MmI0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1f3uDxS6p1S/giphy.gif" width="30"> Merhaba, Ben <span style="color: #39ff14;">Adem Öcel</span></h1>
+  
+  <p><b>Yüksek Performanslı Masaüstü Uygulamaları & Otomasyon Araçları Geliştiricisi</b></p>
+  
+  <img src="https://komarev.com/ghpvc/?username=adem-ocel&color=39ff14&style=flat-square&label=PROFIL+GORUNTULEME" alt="Views" />
+</div>
 
-<img width=100% src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif">
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif">
-<img width=100% src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif">
+---
 
+### 🚀 Hakkımda
+İş süreçlerinizi hızlandıran özel yazılımlar, akıllı botlar ve modern kurumsal web siteleri tasarlıyorum. Modern teknolojileri kullanarak, sürdürülebilir ve ölçeklenebilir yapılar kurmaya özen gösteriyorum.
 
-<h1  align=center>hello 👋 I'am Adem</h1>
-<h3 align=center  >I love coding</h3><br>
-<img width=100% src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+- **🖥️ Masaüstü Uygulamaları:** İhtiyacınıza özel, hızlı ve güvenilir yazılımlar.
+- **🤖 Otomasyon & Botlar:** Tekrarlayan görevleri otomatize eden akıllı çözümler.
+- **🌐 Kurumsal Web Siteleri:** Modern, hızlı ve SEO uyumlu dijital kimlikler.
 
-<h3 align=left >🌐 contact me:</h3>
-<a href="https://www.linkedin.com/in/adem-%C3%B6cel-3837322b7/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" width=40></a>
-&nbsp;&nbsp;<a href="mailto:ademocel83@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" width=50 height=40></a>
-<!--readme.md design belongs to göktuğ gezere, I just edited it myself, you can reach his prifile from below-->
-<!--https://github.com/GezerGoktug-->
+---
+
+### 💻 Teknolojiler & Araçlar
+<p align="left">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+---
+
+### 📊 GitHub İstatistikleri
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adem-ocel&show_icons=true&theme=dark&bg_color=121212&title_color=39ff14&icon_color=39ff14" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adem-ocel&layout=compact&theme=dark&bg_color=121212&title_color=39ff14&icon_color=39ff14" width="40%" />
+</p>
+
+---
+
+### 📬 Benimle İletişime Geçin
+<p align="left">
+  <a href="https://wa.me/905522864752">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/adem-öcel-3837322b7/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/ademocel4/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="mailto:ademocel83@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<div align="center">
+  <br />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  <p><i>"Efficiency through Code."</i></p>
+</div>
