@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adem Öcel | Systems Architect Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #08080a;
+            color: #e2e8f0;
+            scroll-behavior: smooth;
+        }
+
+        .mono {
+            font-family: 'Fira Code', monospace;
+        }
+
+        .cyber-gradient {
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(79, 172, 254, 0.6);
+            transform: scale(1.02);
+            box-shadow: 0 20px 50px -20px rgba(0, 242, 254, 0.2);
+        }
+
+        .blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: #4facfe;
+            filter: blur(120px);
+            opacity: 0.08;
+            z-index: -1;
+            border-radius: 50%;
+        }
+
+        .section-title {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4em;
+            color: #4facfe;
+            font-family: 'Fira Code', monospace;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #08080a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #1a1a1c;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4facfe;
+        }
+    </style>
 </head>
+
 <body class="overflow-x-hidden">
 
     <nav class="fixed w-full z-50 bg-[#08080a]/80 backdrop-blur-xl border-b border-white/5">
@@ -38,9 +111,12 @@
                 Backend & Database Systems Architect. Crafting the invisible infrastructure that powers modern business.
             </p>
             <div class="flex justify-center items-center gap-8">
-                <a href="#projects" class="text-xs uppercase tracking-widest font-bold border-b-2 border-[#4facfe] pb-2 hover:text-[#4facfe] transition">View Archive</a>
+                <a href="#projects"
+                    class="text-xs uppercase tracking-widest font-bold border-b-2 border-[#4facfe] pb-2 hover:text-[#4facfe] transition">View
+                    Archive</a>
                 <div class="w-12 h-[1px] bg-white/10"></div>
-                <a href="#contact" class="text-xs uppercase tracking-widest font-bold text-slate-500 hover:text-white transition">Collaborate</a>
+                <a href="#contact"
+                    class="text-xs uppercase tracking-widest font-bold text-slate-500 hover:text-white transition">Collaborate</a>
             </div>
         </div>
     </section>
@@ -51,7 +127,9 @@
                 <span class="section-title">01 / profile</span>
                 <h2 class="text-4xl md:text-6xl font-bold mb-8">Architectural <br> Integrity.</h2>
                 <p class="text-slate-400 text-lg leading-relaxed mb-8 max-w-lg">
-                    Authorized by the Ministry of National Education, I design systems where <span class="text-white">logic meets scalability</span>. My expertise lies in the deep layers of software—where database normalization and relational systems dictate the speed of growth.
+                    Authorized by the Ministry of National Education, I design systems where <span
+                        class="text-white">logic meets scalability</span>. My expertise lies in the deep layers of
+                    software—where database normalization and relational systems dictate the speed of growth.
                 </p>
                 <div class="flex gap-10">
                     <div>
@@ -64,32 +142,43 @@
                     </div>
                 </div>
             </div>
-            
             <div class="md:col-span-5 flex justify-end items-center">
                 <div class="glass-card p-10 rounded-2xl w-full rotate-3 border-l-4 border-l-[#4facfe]">
-                    <h4 class="mono text-[#4facfe] text-xs mb-4">// Technical_Roots</h4>
-                    <p class="text-sm text-slate-300 italic mb-8 max-w-sm">"The code is optimized, the database normalized, and the coffee... fresh."</p>
-                    <span class="section-title text-slate-600 mb-2">Architect_Core_Vitals</span>
+    
+    <h4 class="mono text-[#4facfe] text-xs mb-4">// Technical_Roots</h4>
+    
+    <p class="text-sm text-slate-300 italic mb-8 max-w-sm">"The code is optimized, the database normalized, and the coffee... fresh."</p>
+    
+    <span class="section-title text-slate-600 mb-2">Architect_Core_Vitals</span>
 
-                    <div class="space-y-5 text-xs mono text-slate-500">
-                        <div>
-                            <div class="flex justify-between mb-1"><span>SQL DEVELOPMENT</span><span>[60%]</span></div>
-                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[60%]"></div></div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1"><span>PROBLEM SOLVING</span><span>[100%]</span></div>
-                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[100%] shadow-[0_0_10px_#4facfe]"></div></div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1"><span>BACKEND LOGIC</span><span>[90%]</span></div>
-                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[90%]"></div></div>
-                        </div>
-                        <div class="border-t border-white/5 pt-3 mt-4 opacity-60">
-                            <div class="flex justify-between mb-1"><span class="italic text-slate-600">CAFFEIN_DEPENDENCY </span><span class="text-xs">[OVERFLOW]</span></div>
-                            <div class="w-full bg-white/5 h-1"><div class="bg-amber-700 h-1 w-[100%]"></div></div>
-                        </div>
-                    </div>
-                </div>
+    <div class="space-y-5 text-xs mono text-slate-500">
+        
+        <div>
+            <div class="flex justify-between mb-1"><span>SQL DEVELOPMENT</span><span>[60%]</span></div>
+            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[60%]"></div></div>
+        </div>
+
+        <div>
+            <div class="flex justify-between mb-1"><span>PROBLEM SOLVING</span><span>[100%]</span></div>
+            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[100%] shadow-[0_0_10px_#4facfe]"></div></div>
+        </div>
+
+        <div>
+            <div class="flex justify-between mb-1"><span>BACKEND LOGIC</span><span>[90%]</span></div>
+            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[90%]"></div></div>
+        </div>
+
+        <div>
+            <div class="flex justify-between mb-1"><span>DRIVE & AMBITION</span><span>[95%]</span></div>
+            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[95%]"></div></div>
+        </div>
+
+        <div class="border-t border-white/5 pt-3 mt-4 opacity-60">
+            <div class="flex justify-between mb-1"><span class="italic text-slate-600">CAFFEIN_DEPENDENCY </span><span class="text-xs">[OVERFLOW]</span></div>
+            <div class="w-full bg-white/5 h-1"><div class="bg-amber-700 h-1 w-[100%]"></div></div>
+        </div>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -98,7 +187,8 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-end mb-20">
                 <div class="max-w-md">
-                    <p class="text-slate-500 text-sm">A curated selection of automation tools and internal architectures built for efficiency.</p>
+                    <p class="text-slate-500 text-sm">A curated selection of automation tools, libraries, and internal
+                        architectures built for efficiency.</p>
                 </div>
                 <div class="text-right">
                     <span class="section-title">02 / solutions</span>
@@ -114,21 +204,30 @@
                     </div>
                     <div>
                         <h4 class="text-2xl font-bold mb-2">SwiftLog</h4>
-                        <p class="text-sm text-slate-500 italic">Advanced logging architecture for Python environments.</p>
+                        <p class="text-sm text-slate-500 italic">Advanced logging architecture for Python environments.
+                        </p>
                     </div>
-                    <a href="#" class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE <i class="fas fa-arrow-right ml-2"></i></a>
+                    <a href="https://github.com/adem-ocel/SwiftLog" target="_blank"
+                        class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE
+                        <i class="fas fa-arrow-right ml-2"></i></a>
                 </div>
-                <div class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group border-b-4 border-b-[#4facfe]">
+
+                <div
+                    class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group border-b-4 border-b-[#4facfe]">
                     <div class="flex justify-between items-start">
                         <i class="fab fa-discord text-3xl text-[#4facfe]"></i>
                         <span class="text-[10px] mono text-slate-600">STABLE</span>
                     </div>
                     <div>
                         <h4 class="text-2xl font-bold mb-2">GhostRooms</h4>
-                        <p class="text-sm text-slate-500 italic">Dynamic resource allocation and voice channel automation.</p>
+                        <p class="text-sm text-slate-500 italic">Dynamic resource allocation and voice channel
+                            automation.</p>
                     </div>
-                    <a href="#" class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE <i class="fas fa-arrow-right ml-2"></i></a>
+                    <a href="https://github.com/adem-ocel/GhostRooms" target="_blank"
+                        class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE
+                        <i class="fas fa-arrow-right ml-2"></i></a>
                 </div>
+
                 <div class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group">
                     <div class="flex justify-between items-start">
                         <i class="fas fa-microchip text-3xl text-[#4facfe]"></i>
@@ -136,10 +235,28 @@
                     </div>
                     <div>
                         <h4 class="text-2xl font-bold mb-2">Biz Management</h4>
-                        <p class="text-sm text-slate-500 italic">Enterprise workflow tracking for engineering sectors.</p>
+                        <p class="text-sm text-slate-500 italic">Enterprise workflow tracking for engineering sectors.
+                        </p>
                     </div>
                     <span class="text-[10px] text-slate-700 mono">PRIVATE_REPO</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="py-48 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="section-title">03 / future</span>
+            <h2 class="text-5xl md:text-7xl font-bold mb-10 tracking-tight">The <span
+                    class="cyber-gradient italic">AO.SYSTEMS</span> Thesis</h2>
+            <p class="text-xl md:text-2xl text-slate-300 font-light leading-relaxed">
+                "My ultimate goal isn't just to write code, but to establish a standard in digital architecture. <span
+                    class="text-white font-bold">AO.SYSTEMS</span> will be the bridge between complex business problems
+                and elegant, high-performance software solutions."
+            </p>
+            <div class="mt-16 inline-flex items-center gap-4 px-8 py-3 rounded-full border border-white/10 bg-white/5">
+                <div class="w-2 h-2 rounded-full bg-[#4facfe] animate-ping"></div>
+                <span class="mono text-xs tracking-[0.2em]">BUILDING_IN_PROGRESS</span>
             </div>
         </div>
     </section>
@@ -149,26 +266,47 @@
             <div>
                 <span class="section-title">04 / connect</span>
                 <h2 class="text-4xl md:text-6xl font-bold mb-8">Start a <br> Conversation.</h2>
-                <a href="mailto:ademocel83@gmail.com" class="block text-2xl md:text-3xl font-bold hover:text-[#4facfe] transition underline underline-offset-8 decoration-white/5">ademocel83@gmail.com</a>
+                <p class="text-slate-400 text-lg mb-10">
+                    Need a high-performance website, a complex automation system, or just want to discuss backend logic
+                    over coffee? Let's connect.
+                </p>
+                <div class="space-y-6">
+                    <a href="mailto:ademocel83@gmail.com"
+                        class="block text-2xl md:text-3xl font-bold hover:text-[#4facfe] transition underline underline-offset-8 decoration-white/5">ademocel83@gmail.com</a>
+                </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-                <a href="#" class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
-                    <i class="fab fa-linkedin text-2xl group-hover:text-[#4facfe]"></i>
-                    <span class="text-[10px] uppercase tracking-widest font-bold">LinkedIn</span>
-                </a>
-                <a href="#" class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
-                    <i class="fab fa-github text-2xl group-hover:text-[#4facfe]"></i>
-                    <span class="text-[10px] uppercase tracking-widest font-bold">GitHub</span>
-                </a>
+            <div class="flex flex-col justify-end">
+                <div class="grid grid-cols-2 gap-4">
+                    <a href="https://www.linkedin.com/in/adem-%C3%B6cel/" target="_blank"
+                        class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
+                        <i class="fab fa-linkedin text-2xl group-hover:text-[#4facfe] transition"></i>
+                        <span class="text-[10px] uppercase tracking-widest font-bold">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/adem-ocel" target="_blank"
+                        class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
+                        <i class="fab fa-github text-2xl group-hover:text-[#4facfe] transition"></i>
+                        <span class="text-[10px] uppercase tracking-widest font-bold">GitHub</span>
+                    </a>
+                    <a href="https://www.instagram.com/ademocel4/" target="_blank"
+                        class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
+                        <i class="fab fa-instagram text-2xl group-hover:text-[#4facfe] transition"></i>
+                        <span class="text-[10px] uppercase tracking-widest font-bold">Instagram</span>
+                    </a>
+                    <div
+                        class="p-8 flex items-center justify-center italic text-slate-700 text-[10px] text-center uppercase tracking-tighter">
+                        Available for <br> Global Projects
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-10 px-8 flex flex-col md:flex-row justify-between items-center text-slate-700 text-[10px] mono tracking-widest uppercase border-t border-white/5">
+    <footer
+        class="py-10 px-8 flex flex-col md:flex-row justify-between items-center text-slate-700 text-[10px] mono tracking-widest uppercase border-t border-white/5">
         <p>© 2026 Adem Öcel / Architecting the Future</p>
         <p>Built with Precision & Tailwind</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
+
 </html>
