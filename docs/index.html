@@ -1,125 +1,174 @@
 <!DOCTYPE html>
-<html lang="tr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adem Ocel - Yazılım & Otomasyon</title>
-    <meta name="description"
-        content="Masaüstü uygulamaları, otomasyon botları ve kurumsal web siteleri geliştirme hizmetleri.">
+    <title>Adem Öcel | Systems Architect Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<body class="overflow-x-hidden">
 
-<body>
-
-    <header>
-        <div class="container">
-            <a href="#" class="logo">Adem Ocel<span class="dot">.</span></a>
-            <nav>
-                <ul>
-                    <li><a href="#home">Ana Sayfa</a></li>
-                    <li><a href="#services">Hizmetler</a></li>
-                    <li><a href="#about">Hakkımda</a></li>
-                    <li><a href="#contact" class="btn-primary">İletişim</a></li>
-                </ul>
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
+    <nav class="fixed w-full z-50 bg-[#08080a]/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
+            <div class="text-lg md:text-xl font-extrabold tracking-[0.2em] mono uppercase italic">
+                ADEM<span class="text-[#4facfe]">.</span>ÖCEL
+            </div>
+            <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.3em]">
+                <a href="#about" class="hover:text-[#4facfe] transition">/ About</a>
+                <a href="#projects" class="hover:text-[#4facfe] transition">/ Work</a>
+                <a href="#vision" class="hover:text-[#4facfe] transition">/ Vision</a>
+                <a href="#contact" class="hover:text-[#4facfe] transition">/ Contact</a>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Yüksek Performanslı <span class="highlight">Masaüstü Uygulamaları</span> & Otomasyon Araçları</h1>
-                <p>İş süreçlerinizi hızlandıran özel yazılımlar, botlar ve modern kurumsal web siteleri tasarlıyorum.
+    <section class="relative min-h-screen flex items-center justify-center px-6">
+        <div class="blob top-0 right-0"></div>
+        <div class="blob bottom-0 left-0" style="background: #00f2fe;"></div>
+
+        <div class="max-w-5xl text-center">
+            <span class="section-title animate-pulse">Available for high-performance architecture</span>
+            <h1 class="text-6xl md:text-9xl font-black mb-8 tracking-tighter leading-none">
+                BUILDING <br> <span class="cyber-gradient italic text-5xl md:text-8xl">RELIABLE LOGIC</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-500 max-w-xl mx-auto mb-12 font-light">
+                Backend & Database Systems Architect. Crafting the invisible infrastructure that powers modern business.
+            </p>
+            <div class="flex justify-center items-center gap-8">
+                <a href="#projects" class="text-xs uppercase tracking-widest font-bold border-b-2 border-[#4facfe] pb-2 hover:text-[#4facfe] transition">View Archive</a>
+                <div class="w-12 h-[1px] bg-white/10"></div>
+                <a href="#contact" class="text-xs uppercase tracking-widest font-bold text-slate-500 hover:text-white transition">Collaborate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-40 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-7">
+                <span class="section-title">01 / profile</span>
+                <h2 class="text-4xl md:text-6xl font-bold mb-8">Architectural <br> Integrity.</h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8 max-w-lg">
+                    Authorized by the Ministry of National Education, I design systems where <span class="text-white">logic meets scalability</span>. My expertise lies in the deep layers of software—where database normalization and relational systems dictate the speed of growth.
                 </p>
-                <div class="hero-btns">
-                    <a href="#services" class="btn-primary">Hizmetlerimi İncele</a>
-                    <a href="#contact" class="btn-secondary">İletişime Geç</a>
+                <div class="flex gap-10">
+                    <div>
+                        <div class="text-2xl font-bold text-white">08+</div>
+                        <div class="text-[10px] uppercase tracking-widest text-slate-500">Core Technologies</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-white">100%</div>
+                        <div class="text-[10px] uppercase tracking-widest text-slate-500">System Uptime</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:col-span-5 flex justify-end items-center">
+                <div class="glass-card p-10 rounded-2xl w-full rotate-3 border-l-4 border-l-[#4facfe]">
+                    <h4 class="mono text-[#4facfe] text-xs mb-4">// Technical_Roots</h4>
+                    <p class="text-sm text-slate-300 italic mb-8 max-w-sm">"The code is optimized, the database normalized, and the coffee... fresh."</p>
+                    <span class="section-title text-slate-600 mb-2">Architect_Core_Vitals</span>
+
+                    <div class="space-y-5 text-xs mono text-slate-500">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>SQL DEVELOPMENT</span><span>[60%]</span></div>
+                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[60%]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>PROBLEM SOLVING</span><span>[100%]</span></div>
+                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[100%] shadow-[0_0_10px_#4facfe]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>BACKEND LOGIC</span><span>[90%]</span></div>
+                            <div class="w-full bg-white/5 h-1"><div class="bg-[#4facfe] h-1 w-[90%]"></div></div>
+                        </div>
+                        <div class="border-t border-white/5 pt-3 mt-4 opacity-60">
+                            <div class="flex justify-between mb-1"><span class="italic text-slate-600">CAFFEIN_DEPENDENCY </span><span class="text-xs">[OVERFLOW]</span></div>
+                            <div class="w-full bg-white/5 h-1"><div class="bg-amber-700 h-1 w-[100%]"></div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Neler Yapıyorum?</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-desktop"></i>
-                    <h3>Masaüstü Uygulamaları</h3>
-                    <p>İhtiyacınıza özel, hızlı ve güvenilir masaüstü yazılımları geliştiriyorum. İş akışınızı optimize
-                        edin.</p>
+    <section id="projects" class="py-40 px-6 bg-white/[0.01]">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20">
+                <div class="max-w-md">
+                    <p class="text-slate-500 text-sm">A curated selection of automation tools and internal architectures built for efficiency.</p>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-robot"></i>
-                    <h3>Otomasyon & Botlar</h3>
-                    <p>Tekrarlayan görevleri otomatize eden akıllı botlar ve scriptler ile zamandan tasarruf edin.</p>
+                <div class="text-right">
+                    <span class="section-title">02 / solutions</span>
+                    <h2 class="text-4xl md:text-6xl font-bold">Selected Work</h2>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-globe"></i>
-                    <h3>Kurumsal Web Siteleri</h3>
-                    <p>Firmanız için modern ve hızlı kurumsal web siteleri hazırlıyorum.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group">
+                    <div class="flex justify-between items-start">
+                        <i class="fab fa-python text-3xl text-[#4facfe]"></i>
+                        <span class="text-[10px] mono text-slate-600">v2.1</span>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">SwiftLog</h4>
+                        <p class="text-sm text-slate-500 italic">Advanced logging architecture for Python environments.</p>
+                    </div>
+                    <a href="#" class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                <div class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group border-b-4 border-b-[#4facfe]">
+                    <div class="flex justify-between items-start">
+                        <i class="fab fa-discord text-3xl text-[#4facfe]"></i>
+                        <span class="text-[10px] mono text-slate-600">STABLE</span>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">GhostRooms</h4>
+                        <p class="text-sm text-slate-500 italic">Dynamic resource allocation and voice channel automation.</p>
+                    </div>
+                    <a href="#" class="opacity-0 group-hover:opacity-100 transition-all text-[#4facfe] mono text-xs tracking-tighter">VIEW_SOURCE_CODE <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                <div class="glass-card p-10 rounded-3xl min-h-[350px] flex flex-col justify-between group">
+                    <div class="flex justify-between items-start">
+                        <i class="fas fa-microchip text-3xl text-[#4facfe]"></i>
+                        <span class="text-[10px] mono text-slate-600">INTERNAL</span>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">Biz Management</h4>
+                        <p class="text-sm text-slate-500 italic">Enterprise workflow tracking for engineering sectors.</p>
+                    </div>
+                    <span class="text-[10px] text-slate-700 mono">PRIVATE_REPO</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <h2 class="section-title">Hakkımda</h2>
-                <p>Merhaba, ben Adem Öcel. Yazılım geliştirme konusunda tutkulu bir uzmanım. Özellikle masaüstü
-                    uygulamaları, süreç otomasyonu ve web teknolojileri alanlarında deneyim sahibiyim. Amacım,
-                    müşterilerimin dijital dünyadaki ihtiyaçlarına en etkili ve estetik çözümleri sunmaktır.</p>
-                <p>Projelerimde modern teknolojileri kullanarak, sürdürülebilir ve ölçeklenebilir yapılar kurmaya özen
-                    gösteririm.</p>
+    <section id="contact" class="py-40 px-6 border-t border-white/5 bg-[#0a0a0c]">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20">
+            <div>
+                <span class="section-title">04 / connect</span>
+                <h2 class="text-4xl md:text-6xl font-bold mb-8">Start a <br> Conversation.</h2>
+                <a href="mailto:ademocel83@gmail.com" class="block text-2xl md:text-3xl font-bold hover:text-[#4facfe] transition underline underline-offset-8 decoration-white/5">ademocel83@gmail.com</a>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <a href="#" class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
+                    <i class="fab fa-linkedin text-2xl group-hover:text-[#4facfe]"></i>
+                    <span class="text-[10px] uppercase tracking-widest font-bold">LinkedIn</span>
+                </a>
+                <a href="#" class="glass-card p-8 rounded-2xl flex flex-col gap-4 group">
+                    <i class="fab fa-github text-2xl group-hover:text-[#4facfe]"></i>
+                    <span class="text-[10px] uppercase tracking-widest font-bold">GitHub</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">İletişime Geçin</h2>
-            <p>Projenizi hayata geçirmek için benimle iletişime geçebilirsiniz.</p>
-            <form action="https://formspree.io/f/xbdajzwe" method="POST" id="contact-form">
-                <div class="form-group">
-                    <input type="text" name="name" id="name" placeholder="Adınız Soyadınız" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" id="email" placeholder="E-posta Adresiniz" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" name="phone" id="phone" placeholder="Telefon Numaranız" required>
-                </div>
-                <div class="form-group">
-                    <textarea name="message" id="message" placeholder="Mesajınız" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn-primary">Gönder</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Adem Öcel. Tüm hakları saklıdır.</p>
-            <div class="social-links">
-                <a href="https://github.com/adem-ocel"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/adem-%C3%B6cel-3837322b7/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/ademocel4/"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
+    <footer class="py-10 px-8 flex flex-col md:flex-row justify-between items-center text-slate-700 text-[10px] mono tracking-widest uppercase border-t border-white/5">
+        <p>© 2026 Adem Öcel / Architecting the Future</p>
+        <p>Built with Precision & Tailwind</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
