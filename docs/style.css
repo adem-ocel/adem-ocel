@@ -1,336 +1,73 @@
-/* Reset & Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
+/* Genel Ayarlar */
 body {
-    background-color: #121212;
-    color: #e0e0e0;
-    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    background-color: #08080a;
+    color: #e2e8f0;
+    scroll-behavior: smooth;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease;
+.mono {
+    font-family: 'Fira Code', monospace;
 }
 
-ul {
-    list-style: none;
+/* Cyber Gradient Yazı Efekti */
+.cyber-gradient {
+    background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-/* Colors */
-:root {
-    --bg-color: #121212;
-    --bg-card: #1e1e1e;
-    --text-color: #e0e0e0;
-    --accent-color: #39ff14;
-    --accent-hover: #32e612;
-    --text-muted: #a0a0a0;
+/* Glassmorphism Kartları */
+.glass-card {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* Container */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+.glass-card:hover {
+    border-color: rgba(79, 172, 254, 0.6);
+    transform: scale(1.02);
+    box-shadow: 0 20px 50px -20px rgba(0, 242, 254, 0.2);
 }
 
-/* Utilities */
-.btn-primary {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: var(--accent-color);
-    color: #000;
-    border-radius: 5px;
-    font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn-primary:hover {
-    background-color: var(--accent-hover);
-    transform: translateY(-2px);
-}
-
-.btn-secondary {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: transparent;
-    border: 2px solid var(--accent-color);
-    color: var(--accent-color);
-    border-radius: 5px;
-    font-weight: 600;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.btn-secondary:hover {
-    background-color: var(--accent-color);
-    color: #000;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    text-align: center;
-    color: var(--accent-color);
-}
-
-/* Header */
-header {
-    background-color: rgba(18, 18, 18, 0.95);
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #333;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #fff;
-}
-
-.logo .dot {
-    color: var(--accent-color);
-}
-
-nav ul {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-nav ul li a {
-    font-weight: 500;
-}
-
-nav ul li a:hover {
-    color: var(--accent-color);
-}
-
-nav ul li a.btn-primary:hover {
-    color: #000;
-}
-
-.mobile-menu-btn {
-    display: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #fff;
-}
-
-/* Hero Section */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 80px; /* Header height */
-    position: relative;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: '';
+/* Arkaplan Blur Efektleri */
+.blob {
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(57, 255, 20, 0.05) 0%, rgba(18, 18, 18, 0) 70%);
+    width: 500px;
+    height: 500px;
+    background: #4facfe;
+    filter: blur(120px);
+    opacity: 0.08;
     z-index: -1;
+    border-radius: 50%;
 }
 
-.hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    line-height: 1.2;
+/* Bölüm Başlıkları */
+.section-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: #4facfe;
+    font-family: 'Fira Code', monospace;
+    margin-bottom: 1rem;
+    display: block;
 }
 
-.hero .highlight {
-    color: var(--accent-color);
+/* Özel Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    color: var(--text-muted);
-    margin-bottom: 40px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+::-webkit-scrollbar-track {
+    background: #08080a;
 }
 
-.hero-btns {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Services Section */
-.services {
-    padding: 100px 0;
-    background-color: #1a1a1a;
-}
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.service-card {
-    background-color: var(--bg-card);
-    padding: 40px;
+::-webkit-scrollbar-thumb {
+    background: #1a1a1c;
     border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid transparent;
 }
 
-.service-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--accent-color);
-    box-shadow: 0 5px 15px rgba(57, 255, 20, 0.1);
-}
-
-.service-card i {
-    font-size: 3rem;
-    color: var(--accent-color);
-    margin-bottom: 20px;
-}
-
-.service-card h3 {
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.service-card p {
-    color: var(--text-muted);
-}
-
-/* About Section */
-.about {
-    padding: 100px 0;
-}
-
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.about p {
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-    color: var(--text-muted);
-}
-
-/* Contact Section */
-.contact {
-    padding: 100px 0;
-    background-color: #1a1a1a;
-    text-align: center;
-}
-
-.contact p {
-    margin-bottom: 40px;
-    color: var(--text-muted);
-}
-
-#contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 15px;
-    background-color: var(--bg-color);
-    border: 1px solid #333;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--accent-color);
-}
-
-/* Footer */
-footer {
-    padding: 40px 0;
-    background-color: #000;
-    text-align: center;
-    border-top: 1px solid #333;
-}
-
-footer p {
-    color: var(--text-muted);
-    margin-bottom: 20px;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.social-links a {
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.social-links a:hover {
-    color: var(--accent-color);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    
-    nav ul {
-        display: none; /* Hide for now, will toggle with JS */
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: var(--bg-card);
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    .mobile-menu-btn {
-        display: block;
-    }
-
-    .hero-btns {
-        flex-direction: column;
-    }
+::-webkit-scrollbar-thumb:hover {
+    background: #4facfe;
 }
